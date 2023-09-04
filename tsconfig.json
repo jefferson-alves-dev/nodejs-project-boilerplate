@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "rootDirs": ["src", "tests"],
+    "outDir": "dist",
+    "target": "ES2020",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "removeComments": true,
+    "baseUrl": ".",
+    "paths": {
+      "@domain/*": ["./src/api/domain/*"]
+    }
+  },
+  "include": ["src", "tests"],
+  "exclude": ["node_modules"]
+}
