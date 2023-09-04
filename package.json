@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-project-boilerplate",
+  "version": "1.0.0",
+  "description": "NodeJS Project Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Boilerplate",
+    "NodeJS",
+    "NodeJS",
+    "Boilerplate"
+  ],
+  "author": "Jefferson Alves",
+  "license": "MIT"
+}
