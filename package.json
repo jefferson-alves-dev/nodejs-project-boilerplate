@@ -15,6 +15,7 @@
   "author": "Jefferson Alves",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^20.5.9",
     "typescript": "^5.2.2"
   }
 }
