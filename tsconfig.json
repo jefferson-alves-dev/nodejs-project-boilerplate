@@ -11,6 +11,7 @@
     "removeComments": true,
     "baseUrl": ".",
     "paths": {
+      "@tests/*": ["./tests/*"],
       "@domain/*": ["./src/api/domain/*"]
     }
   },
