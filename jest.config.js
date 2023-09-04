@@ -1,15 +1,16 @@
 /** @type {import('jest').Config} */
 const config = {
-  roots: ["<rootDir>/src"],
+  roots: ['<rootDir>/tests'],
   clearMocks: true,
-  collectCoverageFrom: ["<rootDir>/src/**/*.ts"],
-  coverageDirectory: "coverage",
-  testEnvironment: "node",
+  collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
+  coverageDirectory: 'coverage',
+  testEnvironment: 'node',
   transform: {
-    ".+\\.ts$": "ts-jest",
+    '.+\\.ts$': 'ts-jest',
   },
   moduleNameMapper: {
-    "@domain/(.*)": "<rootDir>/src/api/domain/$1",
+    '@tests/(.*)': '<rootDir>/tests/$1',
+    '@domain/(.*)': '<rootDir>/src/api/domain/$1',
   },
 }
 
